@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/nature 1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="table.css" />
+    <title>Search Section</title>
+  </head>
+  <body>
+    <div class="section">
+      <div class="input-section">
+        <input
+          type="text"
+          name=""
+          id="myInput"
+          class="inp"
+          placeholder="Search Remote Jobs:      eg-Frontend Engineer"
+          onkeyup="searchFunc()"
+        />
+      </div>
+      <h1>Search Jobs & Know Thier Remote Salary</h1>
+      <div class="table-element">
+        <table id="myTable" class="table" cellspacing=0>
+          <tr>
+            <th>Job Title</th>
+            <th>Salary</th>
+            <th>Experience Needed</th>
+            <th>Job Location</th> 
+          </tr>
+          <tr class="header">
+            <td>Software Developer</td>
+            <td>$50000-$100000</td>
+            <td>5-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>Frontend Engineer</td>
+            <td>$80000-$150000</td>
+            <td>3-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>Frontend Developer</td>
+            <td>$50000-$90000</td>
+            <td>1-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>Backend Developer</td>
+            <td>$75000-$100000</td>
+            <td>2-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>DotNet Developer</td>
+            <td>$90000-$200000</td>
+            <td>3-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>DevOps Developer</td>
+            <td>$100000-$150000</td>
+            <td>4-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>Fiverr Developer</td>
+            <td>$300000-$70000</td>
+            <td>1-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>Shoptify Developer</td>
+            <td>$400000-$50000</td>
+            <td>1-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>Data Analyst</td>
+            <td>$150000-$200000</td>
+            <td>5-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>Data Engineer</td>
+            <td>$100000-$150000</td>
+            <td>4-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>Operation Manager</td>
+            <td>$150000-$200000</td>
+            <td>3-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>Cloud Computing</td>
+            <td>$100000-$150000</td>
+            <td>4-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>QA Assistant</td>
+            <td>$40000-$50000</td>
+            <td>4-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>AWS Developer</td>
+            <td>$100000-$150000</td>
+            <td>4-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>CEO</td>
+            <td>$300000-$400000</td>
+            <td>10-Years</td>
+            <td>On Site</td>
+          </tr>
+          <tr>
+            <td>Lead Developer</td>
+            <td>$10\50000-$250000</td>
+            <td>4-Years</td>
+            <td>Remote</td>
+          </tr>
+          <tr>
+            <td>Full Stack Developer</td>
+            <td>$100000-$150000</td>
+            <td>4-Years</td>
+            <td>Remote</td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+    <script>
+      const searchFunc = () => {
+        let search_filter = document
+          .getElementById("myInput")
+          .value.toUpperCase();
+
+        let myTable = document.getElementById("myTable");
+
+        let tr = myTable.getElementsByTagName("tr");
+
+        for (let i = 0; i < tr.length; i++) {
+          let td = tr[i].getElementsByTagName("td")[0];
+          if (td) {
+            let textValue = td.textContent || td.innerHTML;
+            if (textValue.toLocaleUpperCase().indexOf(search_filter) > -1) {
+              tr[i].style.display = "";
+            } else {
+              tr[i].style.display = "none";
+            }
+          }
+        }
+      };
+    </script>
+  </body>
+</html>

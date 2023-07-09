@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #3fce05;
+}
+
+.container-register {
+  width: 35%;
+  height: 100%;
+  background: white;
+  position: absolute;
+  right: 0;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 60px;
+  justify-content: center;
+}
+.register-logo {
+  background: #ffffff;
+  width: 85%;
+  height: 8%;
+}
+.container-heading{
+}
+h3 {
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+p{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+.animation-img{
+  width: 415px;
+  height: 306px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.register-h2{
+  font-family: 'Itim', cursive;
+  color: white;
+  padding: 90px;
+}input{
+  text-align: center;
+  width: 25%;
+}
+.login-input{
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  gap: 80px;
+  border-color: #3fce05;
+  padding-left: 20px;
+}
+.login-name{
+  position: absolute;
+  background: #3fce05;
+  top: 235px;
+  left: 80px;
+}
+.login-l-name{
+  position: absolute;
+  background: #3fce05;
+  top: 235px;
+  left: 550px;
+}
+.login-input-next{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 20px;
+  gap: 80px;
+  border-color: #3fce05;
+  padding-left: 30px;
+}
+.login-email{
+  position: absolute;
+  background: #3fce05;
+  top: 320px;
+  left: 80px;
+}
+.login-password{
+  position: absolute;
+  background: #3fce05;  
+  top: 320px;
+  left: 550px;
+}
+.login-inp-l{
+  background: #3fce05;
+  border: 1px solid black;
+  height: 35px;
+  border-radius: 10px;
+}
+.login-inp-r{
+  background: #3fce05;
+  border: 1px solid black;
+  height: 35px;
+  border-radius: 10px;
+}
+.login-btn {
+  width: 100px;  
+  font-family: "Inter", sans-serif;
+  padding: 10px;
+  position: absolute;
+  border-radius: 10px;
+  font-weight: bold;
+  top: 430px;
+  left: 26%;
+  border: none;
+  background: #247d01;
+}
+.login-btn:hover{
+  background: #194a05;
+}
+.login-h3 {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  left: 25.5%;
+  top: 500px;
+}
+.login-img {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  gap: 34px;
+  width: 38px;
+  height: 37px;
+  bottom: 0;
+  left: 590px;
+}

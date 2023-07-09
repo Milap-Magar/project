@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inp {
+  width: 50%;
+  padding: 10px;
+  margin: 40px;
+}
+.table-element{
+    display: flex;
+    justify-content: center;
+}
+.table {
+  width: 70%;
+  border: 2px solid greenyellow;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+th{
+  border: 2px solid yellowgreen;
+  padding: 10px;  
+}
+tr:hover{
+    background-image: linear-gradient(rgb(11, 241, 11), rgb(2, 245, 2), rgb(120, 212, 120), white);
+}
+h1{
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+}

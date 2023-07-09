@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  padding: 30px;
+  margin: 10px;
+  justify-content: center;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  margin-left: 50px;
+  width: 140px;
+  height: 50px;
+}
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-top: 10px;
+  gap: 120px;
+  align-items: center;
+}
+ol {
+  font-family: "Joti One", cursive;
+  font-weight: bold;
+  font-size: x-large;
+  padding-left: 5px;
+  color: #34ab05;
+}
+ol:hover {
+  color: #79e050;
+}
+.img-search {
+  width: 15px;
+  height: 15px;
+}
+.nav-section-ol {
+  border: 2px solid green;
+  padding: 5px 40px;
+  border-radius: 25px;
+}
+.nav-section-ol:hover {
+  background: #3fce05;
+  color: white;
+}
+.logo-copy{
+  width: 20px;
+  height: 17px;
+  padding-right: 5px;
+}
+
+.hero-section-img {
+  display: flex;
+  justify-content: end;
+}
+.hero-img {
+  width: 564px;
+  height: 570px;
+}
+.hero-text-h3 {
+  font-family: "Lily Script One", cursive;
+  color: #3fce05;
+  width: 318px;
+  position: absolute;
+  left: 50px;
+  top: 280px;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.btn {
+  position: absolute;
+  top: 430px;
+  left: 50px;
+}
+.btn-hero {
+  font-family: "Lily Script One", cursive;
+  font-weight: bold;
+  padding: 15px;
+  background: #3fce05;
+  border-radius: 30px;
+}
+
+.card-section {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.card1 {
+  width: 424px;
+  height: 200px;
+  background-image: linear-gradient(
+    to right,
+    #79e050,
+    rgb(18, 194, 18),
+    rgb(240, 240, 99)
+  );
+  border-radius: 20px 20px 0 0;
+}
+.card2 {
+  width: 424px;
+  height: 200px;
+  background-image: linear-gradient(
+    to right,
+    #79e050,
+    rgb(18, 194, 18),
+    rgb(240, 240, 99)
+  );
+  border-radius: 20px 20px 0 0;
+}
+.card1-h3 {
+  color: red;
+  padding-top: 30px;
+  text-align: center;
+}
+.card1-p {
+  color: black;
+  font: bold;
+  font-family: "Jaldi", sans-serif;
+  font-size: large;
+  text-align: center;
+  padding-top: 20px;
+}
+.card2-h3 {
+  color: red;
+  padding-top: 30px;
+  text-align: center;
+}
+.card2-p {
+  color: black;
+  font: bold;
+  font-family: "Jaldi", sans-serif;
+  font-size: large;
+  text-align: center;
+  padding-top: 20px;
+}
+.about {
+}
+.about-h3 {
+  font-family: "Joti One", cursive;
+  font-weight: 900;
+  font-size: x-large;
+  padding-left: 5px;
+  color: #34ab05;
+  background: white;
+  text-align: center;
+  padding: 50px;
+}
+.about-h3:hover {
+  color: green;
+}
+.about1-img {
+  display: flex;
+  justify-content: space-between;
+}
+.about-img {
+  width: 505px;
+  height: 527px;
+}
+.about-p {
+  background-image: radial-gradient(
+    #34ab05,
+    rgb(43, 183, 43),
+    rgb(73, 231, 73),
+    rgb(26, 184, 26),
+    rgb(1, 71, 1)
+  );
+  width: 550px;
+  height: 320px;
+  border-radius: 30px;
+  padding: 30px;
+}
+.about-para {
+  font-size: medium;
+}
+li:hover {
+  color: white;
+}
+.job-input {
+  padding: 5px;
+  text-align: start;
+  padding-top: 20px;
+  padding-left: 150px;
+} 
+.inp-search {
+  padding: 10px;
+  border-radius: 10px;
+}
+.span-job {
+  position: absolute;
+  left: 200px;
+}
+.work-logo {
+  /* position: absolute; */
+  text-align: center;
+  align-items: center;
+  width: 25px;
+  height: 20px;
+  padding-top: 5px;
+}
+
+.footer{
+    background-color: #34ab05;
+}
+.footer-h1{
+    text-align: center;
+    padding: 10px;
+}
+.foot-h1 {
+  font-family: "Joti One", cursive;
+}
+.foot-h3{
+  font-family: "Joti One", cursive;
+  padding-bottom: 10px;
+}
+.foot-p{
+    padding-top: 50px;
+}
+/* font-family: 'Gluten', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Jaldi', sans-serif;
+font-family: 'Joti One', cursive;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Lily Script One', cursive; 
+*/
